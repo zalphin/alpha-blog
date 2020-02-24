@@ -51,7 +51,7 @@ h1 {
 
 .footer {
 	margin-top: 45px;
-	padding-tpo: 5px;
+	padding-top: 5px;
 	border-top: 1px solid #aaa;
 	color: #777;
 }
@@ -72,4 +72,9 @@ footer ul {
 footer ul li {
 	float: left;
 	margin-left: 15px;
+}
+
+.form-group label {
+	text-align: right;
+	font-weight: bold;
 }
