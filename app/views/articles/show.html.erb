@@ -1,10 +1,10 @@
 <h2 align="Center"><%= @article.title %></h2>
 
-<div class="well col-xs-8 col-xs-offset-2">
+<div class="card bg-light card-body col-xs-8 col-xs-offset-2">
 	<h4 class="center description"><strong>Description</strong></h4>
 	<hr>
 	<%= simple_format(@article.description) %>
-	<div class="article-actions">
+	<div class="article-actions center">
 		<%= link_to "Edit this article", edit_article_path(@article), class: "btn btn-sm btn-primary" %>
 		<%= link_to "Delete this article", 
 								article_path(@article), 

@@ -54,8 +54,27 @@ h1 {
 	padding-top: 20px;
 }
 
+.card {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .description {
 	margin-top: 0;
+}
+
+.article-title {
+	font-weight: bold;
+	font-size: 1.7em;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.article-body {
+	border-top: 1px solid #aaa;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
 }
 
 .footer {
