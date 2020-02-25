@@ -7,6 +7,8 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 
 gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '3.1.7'
+gem 'will_paginate-bootstrap4', '0.2.2'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
