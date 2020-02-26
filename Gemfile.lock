@@ -61,9 +61,9 @@ GEM
     bcrypt (3.1.13)
     bcrypt (3.1.13-java)
     bindex (0.8.1)
-    bootsnap (1.4.5)
+    bootsnap (1.4.6)
       msgpack (~> 1.0)
-    bootsnap (1.4.5-java)
+    bootsnap (1.4.6-java)
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.1)
@@ -165,7 +165,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (1.6.0)
+    regexp_parser (1.7.0)
     ruby_dep (1.5.0)
     rubyzip (2.2.0)
     sass-rails (6.0.0)
@@ -247,6 +247,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
+  nokogiri
   pg
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.1)
